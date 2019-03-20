@@ -15,7 +15,7 @@ public class Main {
 
     public static void main(String[] args){
         int broj;
-        Scanner ulaz=new Scanner(System.in);
+        Scanner ulaz = new Scanner(System.in);
         System.out.println("Unesi broj: ");
         broj=ulaz.nextInt();
         for(int i = 1 ; i <= broj ; i++){
